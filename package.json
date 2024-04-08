@@ -1,0 +1,15 @@
+{
+    "name": "atarashi",
+    "version": "1.0.0",
+    "description": "Accelerate your development with pre-made templates for frontend and backend projects.",
+    "main": "src/app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Gautam Suthar <iamgautamsuthar@gmail.com> (https://www.github.com/iamgautamsuthar)",
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^9.2.17"
+    }
+}
