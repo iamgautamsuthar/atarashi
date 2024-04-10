@@ -7,7 +7,7 @@ Atarashi is a collection of pre-made templates for rapid development using vario
 Install ATARASHI with npm
 
 ```bash
-  npm install atarashi
+  npm install -g atarashi
 ```
 
 ## Usage/Examples
