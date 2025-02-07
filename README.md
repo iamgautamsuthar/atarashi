@@ -7,12 +7,19 @@ Atarashi is a collection of pre-made templates for rapid development using vario
 Install ATARASHI with npm
 
 ```bash
-  npm install -g atarashi
+npm install -g atarashi
 ```
 
-## Usage/Examples
+## Usage
 
-type atarashi in terminal
+Before running Atarashi, create your project folder and navigate into it. Atarashi does not create a parent folder for your project.
+
+```bash
+mkdir my-project && cd my-project
+atarashi
+```
+
+Run Atarashi in the terminal to initialize a project:
 
 ```bash
 atarashi
@@ -20,10 +27,23 @@ atarashi
 
 ## Available Templates
 
--   Express-App: Minimal Express.js backend.
--   Full-Backend-App: Complete backend setup with Express.js and MongoDB.
--   React-App: A lightweight and fast VITE.
--   React-Tailwind-App: Vite setup with Tailwind CSS pre-configured.
+Currently, Atarashi provides one template:
+
+-   **Full-Backend-App**: A complete backend setup with Express.js and MongoDB, including:
+    -   **Error Handling**: Centralized error handling with `ApiError` and `ApiResponse`
+    -   **Async Handler**: Utility for handling asynchronous operations
+    -   **Environment Configuration**: Uses `dotenv` for managing environment variables
+    -   **MongoDB Setup**: Pre-configured connection with Mongoose
+    -   **Nodemon Support**: Hot-reloading for development
+
+More templates will be added in future updates!
+
+## Features
+
+-   **Rapid Development**: Get started with production-ready templates instantly
+-   **Best Practices**: Pre-configured setups following modern development standards
+-   **Extensibility**: Easily customize templates to fit your project's needs
+-   **Open Source**: Contributions are welcome to expand the template collection
 
 ## Contributing
 
