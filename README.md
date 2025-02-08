@@ -12,13 +12,6 @@ npm install -g atarashi
 
 ## Usage
 
-Before running Atarashi, create your project folder and navigate into it. Atarashi does not create a parent folder for your project.
-
-```bash
-mkdir my-project && cd my-project
-atarashi
-```
-
 Run Atarashi in the terminal to initialize a project:
 
 ```bash
