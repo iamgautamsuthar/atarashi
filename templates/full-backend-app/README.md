@@ -60,7 +60,7 @@ atarashi-backend-template/
 │   ├── models/
 │   ├── routes/
 │   ├── middlewares/
-│   ├── config/
+│   ├── db/
 │   ├── utils/
 │   ├── index.js
 ├── .env
